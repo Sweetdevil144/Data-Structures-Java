@@ -23,7 +23,7 @@ public class Queues {
         System.out.println(queue.peek());
         System.out.println(queue);
         System.out.println(queue.size());
-//        Uses :
+//        Uses:
 //        LinkedList, PriorityQueue, Breadth-first Search
     }
 }
