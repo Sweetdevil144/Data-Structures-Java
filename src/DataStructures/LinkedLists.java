@@ -8,7 +8,7 @@ public class LinkedLists {
     }
     public static void linkedList() {
         LinkedList<Integer> list = new LinkedList<Integer>();
-        // Behaves like that of a stack, that is, append at start of list
+        // Behaves like that of a stack, that is, append at the start of the list
         list.push(5);
         list.add(3);
         // Append at last of the list, similar to queues.
