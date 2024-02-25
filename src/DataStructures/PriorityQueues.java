@@ -15,7 +15,8 @@ public class PriorityQueues {
         //      examine = element(), peek()
 
         Queue<Double> queue1 = new LinkedList<Double>();
-        Queue<Double> queue2 = new PriorityQueue<Double>(Collections.reverseOrder());
+//        Queue<Double> queue2 = new PriorityQueue<Double>(Collections.reverseOrder());
+        Queue<Double> queue2 = new PriorityQueue<Double>();
         queue1.offer(9.8);
         queue1.offer(7.84);
         queue1.offer(6.76);

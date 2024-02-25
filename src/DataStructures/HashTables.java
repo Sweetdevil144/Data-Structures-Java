@@ -6,7 +6,9 @@ public class HashTables {
     public static void main(String[] args) {
         Hashtable<Integer,String> table = new Hashtable<>();
         table.put(100, "Spongebob");
+        table.put(102, "Spongebob");
         table.put(102, "Patrick");
+        table.put(100, "Patrick");
         table.put(200, "Squidward");
         table.put(103, "Sandy");
         table.put(202, "Mr. Krabs");
